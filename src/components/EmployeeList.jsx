@@ -41,7 +41,7 @@ function EmployeeList() {
       await fetchEmployees();
     };
     loadEmployees();
-  }, []);
+  });
 
   //   Handle search
   const handleSearch = (e) => {
